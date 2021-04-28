@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <table border="1">
+        <tr>
+            <th colspan="2">지역별 홍차</th></th>
+        </tr>
+        <tr>
 </body>
 </html>
