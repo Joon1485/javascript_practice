@@ -206,3 +206,7 @@ function displayPlaces(places) {
             kakao.maps.event.addListener(marker, 'mouseout', function() {
                 infowindow.close();
             });
+
+            itemEl.onmouseover =  function () {
+                displayInfowindow(marker, title);
+            };
