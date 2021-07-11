@@ -210,3 +210,7 @@ function displayPlaces(places) {
             itemEl.onmouseover =  function () {
                 displayInfowindow(marker, title);
             };
+
+            itemEl.onmouseout =  function () {
+                infowindow.close();
+            };
