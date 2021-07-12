@@ -214,3 +214,7 @@ function displayPlaces(places) {
             itemEl.onmouseout =  function () {
                 infowindow.close();
             };
+
+            kakao.maps.event.addListener(marker, 'click', function() {
+                SendLocation(marker.getPosition().getLat(), marker.getPosition().getLng()); //클릭 시 좌표 전송
+            });
