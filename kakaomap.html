@@ -218,3 +218,7 @@ function displayPlaces(places) {
             kakao.maps.event.addListener(marker, 'click', function() {
                 SendLocation(marker.getPosition().getLat(), marker.getPosition().getLng()); //클릭 시 좌표 전송
             });
+            })(marker, places[i].place_name);
+
+        fragment.appendChild(itemEl);
+    }
