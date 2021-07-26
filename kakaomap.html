@@ -267,3 +267,7 @@ spriteSize : new kakao.maps.Size(36, 691), // 스프라이트 이미지의 크�
         markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imgOptions),
             marker = new kakao.maps.Marker({
             position: position, // 마커의 위치
+            image: markerImage
+        });
+
+    marker.setMap(map); // 지도 위에 마커를 표출합니다
