@@ -275,3 +275,8 @@ spriteSize : new kakao.maps.Size(36, 691), // 스프라이트 이미지의 크�
 
     return marker;
 }
+
+// 지도 위에 표시되고 있는 마커를 모두 제거합니다
+function removeMarker() {
+    for ( var i = 0; i < markers.length; i++ ) {
+        markers[i].setMap(null);
