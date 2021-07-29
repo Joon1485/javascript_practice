@@ -280,3 +280,9 @@ spriteSize : new kakao.maps.Size(36, 691), // 스프라이트 이미지의 크�
 function removeMarker() {
     for ( var i = 0; i < markers.length; i++ ) {
         markers[i].setMap(null);
+ }   
+    markers = [];
+}
+
+// 검색결과 목록 하단에 페이지번호를 표시는 함수입니다
+function displayPagination(pagination)
