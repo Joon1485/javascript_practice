@@ -302,3 +302,6 @@ var el = document.createElement('a');
 
         if (i===pagination.current) {
             el.className = 'on';
+        } else {
+            el.onclick = (function(i) {
+                return function() {
