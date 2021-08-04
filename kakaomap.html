@@ -305,3 +305,7 @@ var el = document.createElement('a');
         } else {
             el.onclick = (function(i) {
                 return function() {
+                pagination.gotoPage(i);
+                }
+            })(i);
+        }
