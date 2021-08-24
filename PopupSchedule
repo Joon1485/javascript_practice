@@ -20,3 +20,7 @@
             scrollbar-width: none;
             border: 1px black solid;
         }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
