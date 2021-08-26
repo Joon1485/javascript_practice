@@ -28,3 +28,6 @@
         * {
             box-sizing: border-box;
         }
+
+        .popup_contents {
+            border: 1px solid #BDBDBD;
