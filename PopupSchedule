@@ -31,3 +31,6 @@
 
         .popup_contents {
             border: 1px solid #BDBDBD;
+            width: 500px;
+            height: 600px;
+        }
