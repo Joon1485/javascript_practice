@@ -34,3 +34,8 @@
             width: 500px;
             height: 600px;
         }
+
+        .close_button {
+            display: flex;
+            justify-content: flex-end;
+        }
