@@ -49,3 +49,7 @@
             height: 18%;
             padding: 4%;
         }
+
+        .schedule-start-date {
+            display: inline-block;
+        }
