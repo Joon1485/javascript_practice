@@ -72,3 +72,8 @@
 
                   <div class="timeSchedule">
                     이름
+                    <br><br>
+                    시작 : YYYY-MM-DD ~ 끝 : YYYY-MM-DD
+                      </div>
+
+                      <div class="timeSchedule">
