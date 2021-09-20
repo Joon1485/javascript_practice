@@ -42,3 +42,8 @@
             display: flex;
             justify-content: flex-end;
         }
+
+        .timeSchedule {
+            border: 1px solid;
+            border-radius: 20px;
+            margin-top: 7%;
