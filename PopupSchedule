@@ -60,3 +60,7 @@
         <div class="close_button">
             <button id="closeButton" name="closeButton" onClick='self.close()'>X</button>
         </div>
+        
+        <div class="timeSchedule">
+                이름
+                <br><br>
