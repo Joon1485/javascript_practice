@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let score1, score2;
+
+        function check(score1, score2) {
+            if (score1 + score2 >= 120) {
+                if (score1 < 40 || score2 < 40) {
+                    console.log('한 과목때문에 불합격 ㅠㅡㅠ');
+                    return;
+                }
+                console.log('합격~!');
+            } else
+                console.log('불합격했어요..');
+        }
+    </script>
+</body>
+
+</html>
