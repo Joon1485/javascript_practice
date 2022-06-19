@@ -70,3 +70,35 @@
                 alert('비밀번호를 6자 이상 입력해주세요!!!');
             e.preventDefault();
         })
+
+//css
+// .list-group {
+//   display: none;
+// }
+
+// .black_bg {
+//   width: 100%;
+//   height: 100%;
+//   position: fixed;
+//   background-color: darkgrey;
+//   z-index: 1;
+//   padding:30px;
+//   opacity: 0.3;
+//   visibility: hidden;
+//   transition: all 1s;
+// }
+
+// .modal {
+//   display: none;
+//   opacity: 0;
+//   z-index: 2;
+// }
+// .show-modal {
+//   display: block;
+//   opacity: 1;
+// }
+
+// .show-bg {
+//   visibility: visible;
+//   opacity: 0.7;
+// }
