@@ -71,3 +71,10 @@
             let newProducts = products.filter(function (a) {
                 return a.price <= 60000;
             });
+            document.querySelector('.container').innerHTML = '';
+
+            for (let i = 0; i < newProducts.length; i++) {
+                document.querySelector('.container').innerHTML +=
+                    `<div class="card">
+                <img src="https://via.placeholder.com/600">
+                <div class="card-body">
