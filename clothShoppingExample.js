@@ -78,3 +78,7 @@
                     `<div class="card">
                 <img src="https://via.placeholder.com/600">
                 <div class="card-body">
+                <h5> ${newProducts[i].title}</h5>
+                <p>가격 : ${newProducts[i].price}</p>
+                <button class="btn buy-btn">주문하기</button>
+                </div>
