@@ -82,3 +82,12 @@
                 <p>가격 : ${newProducts[i].price}</p>
                 <button class="btn buy-btn">주문하기</button>
                 </div>
+                </div>`;
+            }
+        })
+
+        document.querySelector('.sortByNameBtn').addEventListener('click', function () {
+            products.sort(function (a, b) {
+                if (a.title < b.title) return 1;
+                if (a.title > b.title) return -1;
+                if (a.title === b.title) return 0;
