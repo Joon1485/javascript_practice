@@ -91,3 +91,10 @@
                 if (a.title < b.title) return 1;
                 if (a.title > b.title) return -1;
                 if (a.title === b.title) return 0;
+            });
+            document.querySelector('.container').innerHTML = '';
+
+            for (let i = 0; i < products.length; i++) {
+                document.querySelector('.container').innerHTML +=
+                    `<div class="card">
+                <img src="https://via.placeholder.com/600">
