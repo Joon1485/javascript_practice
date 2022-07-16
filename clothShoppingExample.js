@@ -98,3 +98,22 @@
                 document.querySelector('.container').innerHTML +=
                     `<div class="card">
                 <img src="https://via.placeholder.com/600">
+                <div class="card-body">
+                <h5> ${products[i].title}</h5>
+                <p>가격 : ${products[i].price}</p>
+                <button class="btn buy-btn">주문하기</button>
+                </div>
+                </div>`;
+            }
+        });
+
+        for (let i = 0; i < nameIndex.length; i++) {
+            nameIndex[i].innerHTML = products[i].title;
+            priceIndex[i].innerHTML = products[i].price;
+        }
+
+        let pants = '<option>28</option><option>30</option>'
+        let elseCloth = '<option>95</option><option>100</option><option>105</option>'
+
+        document.querySelector('.select-item').addEventListener('change', function () {
+            let value = this.value;
