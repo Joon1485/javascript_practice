@@ -117,3 +117,15 @@
 
         document.querySelector('.select-item').addEventListener('change', function () {
             let value = this.value;
+
+            if (value == '바지') {
+                document.querySelector('.select-size').innerHTML = pants;
+            } else if (value == '장갑') {
+                document.querySelector('.select-size').classList.remove('show-box');
+            } else {
+                document.querySelector('.select-size').innerHTML = elseCloth;
+            }
+        });
+</body>
+
+</html>
