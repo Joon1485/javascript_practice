@@ -126,6 +126,22 @@
                 document.querySelector('.select-size').innerHTML = elseCloth;
             }
         });
+
+        document.querySelector('.sortByPriceBtn').addEventListener('click', function () {
+            products.sort(function (a, b) {
+                return a.price - b.price;
+            })
+            document.querySelector('.container').innerHTML = '';
+
+            for (let i = 0; i < products.length; i++) {
+                document.querySelector('.container').innerHTML +=
+                    `<div class="card">
+                <img src="https://via.placeholder.com/600">
+                <div class="card-body">
+                <h5> ${products[i].title}</h5>
+                <p>가격 : ${products[i].price}</p>
+            });
+        }
 </body>
 
 </html>
