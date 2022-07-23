@@ -140,8 +140,19 @@
                 <div class="card-body">
                 <h5> ${products[i].title}</h5>
                 <p>가격 : ${products[i].price}</p>
-            });
-        }
+                <button class="btn buy-btn">주문하기</button>
+                </div>
+                </div>`;
+            }
+        })
+        let arr = [1, 2, 3];
+        let newArr = JSON.stringify(arr);
+        localStorage.setItem('name', 'jun');
+        localStorage.setItem('num', newArr);
+
+        let buyingProduct = document.querySelectorAll('.buy-btn');
+        for (let i = 0; i < buyingProduct.length; i++) {
+            buyingProduct[i].addEventListener('click', function () { });
 </body>
 
 </html>
