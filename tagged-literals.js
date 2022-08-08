@@ -9,4 +9,9 @@
                 console.log(`바지 안팔아요 ${words[1]} ${variable2}`);
                 return;
             }
+            }
+            console.log(`${words[0]} ${variable1} ${words[1]} ${variable2}`);
+        };
+
+        deconstruction`바지${pants} 양말${socks}`;
     </script>
